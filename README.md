@@ -117,3 +117,41 @@ The != operator checks for loose inequality, only considering the value and perf
    [1, 2, 4, 5, 6, 5, 8, 0]
    
    The concat() method in JavaScript is used to concatenate two or more arrays, creating a new array without modifying the existing arrays.
+  8.Guess the Output and Explain Why?
+       ```
+       let a = 5;
+       
+       let b = 7;
+       
+       let c = 8;
+       
+       let result = a < b > c;
+       
+       console.log(result);
+       ```
+       <H3>Output</H3>
+       false
+
+       a < b > c Equivalent to (a < b) && (b > c)
+   9.2.1: Guess the Output And Explain Why?
+
+```
+       let i = 4;
+       
+       for (let j = 0; i < 10; i++) {
+         if (j === 1 || i === 6) {
+           continue;
+         } else {
+           console.log(i, j);
+       
+           if (i === 7) {
+             break;
+           }
+         }
+       }
+```
+<H3>Output</H3>
+4 0
+5 0
+7 0
+ 
