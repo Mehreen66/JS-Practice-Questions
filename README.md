@@ -133,7 +133,7 @@ The != operator checks for loose inequality, only considering the value and perf
        false
 
        a < b > c Equivalent to (a < b) && (b > c)
-   9.2.1: Guess the Output And Explain Why?
+   9.: Guess the Output And Explain Why?
 
 ```
        let i = 4;
